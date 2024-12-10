@@ -1,4 +1,48 @@
 /* Soluzione qui */
+
+/* Smartphone */
+@media screen and (min-width: 576px){
+    img{
+        float: left;
+        padding-right: 20px;
+    }
+
+    .fa-facebook::after{
+        content: " Facebook";
+        color: black;
+    }
+
+    .fa-twitter::after{
+        content: " Twitter";
+        color: black;
+
+    }
+
+    .fa-instagram::after{
+        content: " Instagram";
+        color: black;
+    }
+
+    .fa-pinterest::after{
+        color: black;
+        content: " Pinterest";
+    }
+
+    .fa-youtube::after{
+        color: black;
+        content: " Youtube";
+    }
+
+    .btn{
+        width: 100%;
+    }
+
+    .fab{
+        font-size: smaller;
+    }
+}
+
+/* Tablet */
 @media screen and (min-width: 768px){
     #topbar {
         justify-content: left;
@@ -41,10 +85,10 @@
     }
 }
 
+/* Desktop */
 @media screen and (min-width: 992px){
-
-    .container{
-        padding-inline: 100px;
+    .container {
+        max-width: 992px;
     }
     
     .quick-notes ul{
